@@ -1,6 +1,5 @@
 
 
-
 addEventListener("scroll",() => {
 
     document.querySelector(".plan1").style.top = window.scrollY * 0.3 + 60 + "px";
@@ -20,3 +19,7 @@ addEventListener("scroll",() => {
     document.querySelector(".plan5").style.top = window.scrollY * 0.95 + 450 + "px";
     document.querySelector(".plan5").style.transform = "rotate(" + (100 + -window.scrollY * 0.04) + "deg)";
 })
+const delayToHideLoader =  5 //Secondes
+setTimeout(()=>{
+    loader.style.display='none'
+},delayToHideLoader * 1000)
