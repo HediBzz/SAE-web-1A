@@ -1,0 +1,79 @@
+.btn-question {
+    font-family: "Gotham";
+    height: 5vh;
+    width: 15vw;
+    font-size: 1em;
+    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+#btn-dark-mode{
+    display: inline-block;
+    border-radius: 10px;
+    width: 30vh;
+    height: 5vh;
+    background-color: var(--couleur1);
+    opacity: 0.75;
+    border: none;
+    text-align: center;
+    font-size: 0.6em;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    align-self: center;
+    margin-top: 7vh;
+    align-self: center;
+    justify-self: center;
+}
+#btn-dark-mode span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    color: white;
+    opacity: 1.5;
+}
+#btn-dark-mode span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+}
+#btn-dark-mode:hover span {
+    padding-right: 15px;
+}
+#btn-dark-mode:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+.btnNext{
+    display: None;
+    width:  auto;
+    justify-content: center;
+    margin-left: 0;
+}
+button {
+    align-self: center;
+    justify-self: center;
+    margin: 3vh;
+    margin-bottom: 2vh;
+}
+.login {
+    background-color: #000000;
+    border-radius: 40px;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    bottom: 1vh;
+    right: 1vh;
+    font-size: 2em;
+    position: fixed;
+    z-index: 3;
+}
+  
+.login:hover {
+    opacity: 0.8;
+}

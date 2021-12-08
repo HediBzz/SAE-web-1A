@@ -15,7 +15,7 @@ btns.forEach((btnElem, key)=>{
 
     document.querySelector(`.btn-question.btn-question-${elemIndex}`).addEventListener('click',(event)=>{
         const elemIndexQuestion = Number.parseInt(event.target.classList[1].split('-')[2])
-        if(elemIndexQuestion!==btns.length){
+        if(true){
             num_quest = num_quest + 1
             document.querySelector(`.question.ques-${elemIndexQuestion}`).classList.remove('active')
             nb_quest = document.querySelector(`.question.ques-${elemIndexQuestion}`).classList[2]
@@ -36,9 +36,10 @@ btns.forEach((btnElem, key)=>{
                         console.log("valeur = " + value)
                     }
                 }
-                document.querySelector(`.rep${num_quest}-${value}`).classList.add('active')
-                document.querySelector(`.btnNext${num_quest}`).classList.add('active')
-                console.log(num_quest + "yesss")
+                if(value!=null){
+                    document.querySelector(`.rep${num_quest}-${value}`).classList.add('active')
+                    document.querySelector(`.btnNext${num_quest}`).classList.add('active')
+                    console.log(num_quest + "yesss")}
             }
         }
     })

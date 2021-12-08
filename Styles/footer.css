@@ -1,0 +1,75 @@
+footer {
+    display: flex;
+}
+input[type=text] {
+    width: 80%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 1.8em;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 6px 6px 6px 6px;
+}
+#social {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 30vh;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.social_line {
+    display: flex;
+    align-items: center;
+    width: 25vw;
+}
+img {
+    padding: 2vh;
+}
+footer {
+    background-color: var(--couleur1);
+    z-index: 2;
+}
+.social_line a {
+    font-size: 1.75em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+h3 {
+    font-size: 3em;
+    color: white;
+}
+#contact {
+    display: grid;
+    grid-template-areas: 
+    "a c"
+    "b c";
+}
+.bloc1 {
+    display: flex;
+    justify-content: space-around;
+    grid-area: a;
+    width: 25vw;
+}
+.bloc2 {
+    padding-left: 1vh;
+    display: flex;
+    justify-content: space-around;
+    grid-area: b;
+    width: 25vw;
+    height: 6vh;
+}
+.bloc3 {
+    width: 25vw;
+    display: flex;
+    justify-content: space-around;
+    padding: 2vh;
+    grid-area: c;
+}
+#msg {
+    height: 24vh;
+}

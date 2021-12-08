@@ -5,6 +5,10 @@
     <meta charset="utf-8">
     <title>Iut Doua</title>
     <link rel="stylesheet" href="../Styles/main.css">
+    <link rel="stylesheet" href="../Styles/parallax.css">
+    <link rel="stylesheet" href="../Styles/keyframes.css">
+    <link rel="stylesheet" href="../Styles/button.css">
+    <link rel="stylesheet" href="../Styles/footer.css">
     <script src="../Scripts/quest.js" defer></script>
     <script src="../Scripts/script.js"></script>
 </head>
@@ -34,7 +38,7 @@
                         <div class="question ques-1 2 active">
                             <h2>Apprécies-tu de travailler en groupe ?</h2>
                             <div class="">
-                                <label class="q1-1"><input type="radio" name="reponse" checked><span>J'aime travailler en groupe</span></label>
+                                <label class="q1-1"><input type="radio" name="reponse" checked=><span>J'aime travailler en groupe</span></label>
                                 <label class="q1-2"><input type="radio" name="reponse"><span>Je n'aime pas travailler en groupe</span></label>
                             </div>
                             
@@ -52,7 +56,7 @@
                         <div class="question ques-2 2">
                             <h2>Te sens-tu bon en informatique ?</h2>
                             <div class="">
-                                <label class="q2-1"><input type="radio" name="reponse"> J'ai déjà fais
+                                <label class="q2-1"><input type="radio" name="reponse" checked> J'ai déjà fais
                                     quelques programmes</label>
                                 <label class="q2-2"><input type="radio" name="reponse"> Je n'ai jamais
                                     fais de l'informatique</label>
@@ -76,7 +80,7 @@
                             <h2>Selon toi, la ponctualité et la régularité sont-elles essentielles à l'apprentissage ?
                             </h2>
                             <div class="">
-                                <label class="q3-1"><input type="radio" name="reponse"> Ses valeurs sont importante</label>
+                                <label class="q3-1"><input type="radio" name="reponse" checked> Ses valeurs sont importante</label>
                                 <label class="q3-2"><input type="radio" name="reponse"> Je suis souvent en retard </label>
 
                             </div>
@@ -94,25 +98,21 @@
 
                     </section>
                     <section>
-                        <div class="question ques-4 6">
+                        <div class="question ques-4 2">
                             <h2>Selon toi, quelles spécialités sont demandées pour entrer en BUT informatique ?</h2>
                             <div class="">
-                                <label class="q4-1"><input type="checkbox"> Maths</label>
-                                <label class="q4-2"><input type="checkbox"> NSI</label>
-                                <label class="q4-3"><input type="checkbox"> Physique-Chimie</label>
-                                <label class="q4-4"><input type="checkbox"> SI</label>
-                                <label class="q4-5"><input type="checkbox"> STI2D SIN</label>
-                                <label class="q4-6"><input type="checkbox"> STMG</label>
+                                <label class="q4-1"><input type="radio" name="reponse" checked> Des spécialités scientifiques, un bac sti2d sin ou un bac STMG</label>
+                                <label class="q4-2"><input type="radio" name="reponse"> Il n'y a aucun pré-requis </label>
                             </div>
                             <button class="btn-question btn-question-4">Valider</button>
                         </div>
 
                         <div class="rep rep4-1"><p>Reponse par rapport à la question 4 choix 1</p>
-                            <button class="btnNext btnNext4">Suivant</button>
                         </div>
                         <div class="rep rep4-2"><p>Reponse par rapport à la question 4 choix 2</p>
-                            <button class="btnNext btnNext4">Suivant</button>
                         </div>
+
+                        <button class="btnNext btnNext4">Suivant</button>
 
                     </section>
                     <section>
@@ -127,12 +127,11 @@
                             <button class="btn-question btn-question-5">Valider</button>
                         </div>
 
-                        <div class="rep rep1-1"><p>Reponse par rapport à la question 1 choix 1</p>
-                            <button class="btnNext btnNext5">Suivant</button>
+                        <div class="rep rep5-1"><p>Reponse par rapport à la question 1 choix 1</p>
                         </div>
-                        <div class="rep rep1-2"><p>Reponse par rapport à la question 1 choix 2</p>
-                            <button class="btnNext btnNext5">Suivant</button>
+                        <div class="rep rep5-2"><p>Reponse par rapport à la question 1 choix 2</p>
                         </div>
+                        <button class="btnNext btnNext5">Suivant</button>
 
                     </section>
                     <section>
@@ -146,76 +145,68 @@
                             <button class="btn-question btn-question-6">Valider</button>
                         </div>
 
-                        <div class="rep rep1-1"><p>Reponse par rapport à la question 1 choix 1</p>
-                            <button class="btnNext btnNext6">Suivant</button>
+                        <div class="rep rep6-1"><p>Reponse par rapport à la question 1 choix 1</p>
+                            
                         </div>
-                        <div class="rep rep1-2"><p>Reponse par rapport à la question 1 choix 2</p>
-                            <button class="btnNext btnNext6">Suivant</button>
+                        <div class="rep rep6-2"><p>Reponse par rapport à la question 1 choix 2</p>
+                            
                         </div>
+                        <button class="btnNext btnNext6">Suivant</button>
 
                     </section>
                     <section>
-                        <div class="question ques-7 4">
-                            <h2>Comment comptes-tu manger le midi et le soir au Restaurant Universitaire ?</h2>
+                        <div class="question ques-7 2">
+                            <h2>Comment comptes-tu manger pendant la journée ?</h2>
                             <div class="">
-                                <label class="q7-1"><input type="radio" name="reponse"> Je mange chez moi tout le temps</label>
-                                <label class="q7-2"><input type="radio" name="reponse"> Je mange chez moi le midi</label>
-                                <label class="q7-3"><input type="radio" name="reponse"> Je mange chez moi le soir</label>
-                                <label class="q7-4"><input type="radio" name="reponse"> Je mange tout le temps au RU</label>
+                                <label class="q7-1"><input type="radio" name="reponse"> Je mangerai chez moi</label>
+                                <label class="q7-2"><input type="radio" name="reponse"> Je mangerai au réstaurant universitaire</label>
                             </div>
                             <button class="btn-question btn-question-7">Valider</button>
                         </div>
 
-                        <div class="rep rep1-1"><p>Reponse par rapport à la question 1 choix 1</p>
-                            <button class="btnNext btnNext7">Suivant</button>
+                        <div class="rep rep7-1"><p>Reponse par rapport à la question 1 choix 1</p>
+
                         </div>
-                        <div class="rep rep1-2"><p>Reponse par rapport à la question 1 choix 2</p>
-                            <button class="btnNext btnNext7">Suivant</button>
+                        <div class="rep rep7-2"><p>Reponse par rapport à la question 1 choix 2</p>
+                            
                         </div>
+                        <button class="btnNext btnNext7">Suivant</button>
 
                     </section>
                     <section>
-                        <div class="question ques-8 3">
+                        <div class="question ques-8 2">
                             <h2>As-tu envie de participer à des événements/soirées ?</h2>
                             <div class="">
-                                <label class="q8-1"><input type="radio" name="reponse"> Je veux aller en soirée toux les
-                                    soirs</label>
-                                <label class="q8-2"><input type="radio" name="reponse"> Je veux faire des soirées une fois par
-                                    semaine</label>
-                                <label class="q8-3"><input type="radio" name="reponse"> Je préfére dormir tranquillement chez
-                                    moi</label>
+                                <label class="q8-1"><input type="radio" name="reponse"> Je veux aller en soirée toux les soirs</label>
+                                <label class="q8-2"><input type="radio" name="reponse"> Je veux faire des soirées rarement ou de temps en temps</label>
 
                             </div>
                             <button class="btn-question btn-question-8">Valider</button>
                         </div>
 
-                        <div class="rep rep1-1"><p>Reponse par rapport à la question 1 choix 1</p>
-                            <button class="btnNext btnNext8">Suivant</button>
+                        <div class="rep rep8-1"><p>Reponse par rapport à la question 1 choix 1</p>
                         </div>
-                        <div class="rep rep1-2"><p>Reponse par rapport à la question 1 choix 2</p>
-                            <button class="btnNext btnNext8">Suivant</button>
+                        <div class="rep rep8-2"><p>Reponse par rapport à la question 1 choix 2</p>
                         </div>
+                        <button class="btnNext btnNext8">Suivant</button>
 
                     </section>
                     <section>
-                        <div class="question ques-9 4">
+                        <div class="question ques-9 2">
                             <h2>A ton avis qu'elle est le prix d'un appartement au Crous ?</h2>
                             <div class="">
-                                <label class="q9-1"><input type="radio" name="reponse"> 200€</label>
-                                <label class="q9-2"><input type="radio" name="reponse"> 300€</label>
-                                <label class="q9-3"><input type="radio" name="reponse"> 400€</label>
-                                <label class="q9-4"><input type="radio" name="reponse"> 500€</label>
+                                <label class="q9-1"><input type="radio" name="reponse"> 200-300€</label>
+                                <label class="q9-2"><input type="radio" name="reponse"> 400-500€</label>
 
                             </div>
                             <button class="btn-question btn-question-9">Valider</button>
                         </div>
 
-                        <div class="rep rep1-1"><p>Reponse par rapport à la question 1 choix 1</p>
-                            <button class="btnNext btnNext9">Suivant</button>
+                        <div class="rep rep9-1"><p>Reponse par rapport à la question 1 choix 1</p>
                         </div>
-                        <div class="rep rep1-2"><p>Reponse par rapport à la question 1 choix 2</p>
-                            <button class="btnNext btnNext9">Suivant</button>
+                        <div class="rep rep9-2"><p>Reponse par rapport à la question 1 choix 2</p>
                         </div>
+                        <button class="btnNext btnNext9">Suivant</button>
 
                     </section>
                     <section>
@@ -230,33 +221,30 @@
                             <button class="btn-question btn-question-10">Valider</button>
                         </div>
 
-                        <div class="rep rep1-1"><p>Reponse par rapport à la question 1 choix 1</p>
-                            <button class="btnNext btnNext10">Suivant</button>
+                        <div class="rep rep10-1"><p>Reponse par rapport à la question 1 choix 1</p>
+                            
                         </div>
-                        <div class="rep rep1-2"><p>Reponse par rapport à la question 1 choix 2</p>
-                            <button class="btnNext btnNext10">Suivant</button>
+                        <div class="rep rep10-2"><p>Reponse par rapport à la question 1 choix 2</p>
                         </div>
+                        <button class="btnNext btnNext10">Suivant</button>
 
                     </section>
                     <section>
-                        <div class="question ques-11 4">
+                        <div class="question ques-11 2">
                             <h2>Quelle niveau d’études souhaiterais-tu atteindre ?</h2>
                             <div class="">
-                                <label class="q11-1"><input type="radio" name="reponse"> Juste le Bac</label>
-                                <label class="q11-2"><input type="radio" name="reponse"> Bac+2</label>
-                                <label class="q11-3"><input type="radio" name="reponse"> Bac+3</label>
-                                <label class="q11-4"><input type="radio" name="reponse"> Bac+5</label>
+                                <label class="q11-1"><input type="radio" name="reponse"> Etudes courtes (bac/bac+2)</label>
+                                <label class="q11-2"><input type="radio" name="reponse"> Etudes longues (bac+3/bac+5)</label>
 
                             </div>
                             <button class="btn-question btn-question-11">Valider</button>
                         </div>
 
-                        <div class="rep rep1-1"><p>Reponse par rapport à la question 1 choix 1</p>
-                            <button class="btnNext btnNext11">Suivant</button>
+                        <div class="rep rep11-1"><p>Reponse par rapport à la question 1 choix 1</p>
                         </div>
-                        <div class="rep rep1-2"><p>Reponse par rapport à la question 1 choix 2</p>
-                            <button class="btnNext btnNext11">Suivant</button>
+                        <div class="rep rep11-2"><p>Reponse par rapport à la question 1 choix 2</p>
                         </div>
+                        <button class="btnNext btnNext11">Suivant</button>
 
                     </section>
                     <section>
@@ -270,34 +258,31 @@
                             <button class="btn-question btn-question-12">Valider</button>
                         </div>
 
-                        <div class="rep rep1-1"><p>Reponse par rapport à la question 1 choix 1</p>
-                            <button class="btnNext btnNext12">Suivant</button>
+                        <div class="rep rep12-1"><p>Reponse par rapport à la question 1 choix 1</p>
                         </div>
-                        <div class="rep rep1-2"><p>Reponse par rapport à la question 1 choix 2</p>
-                            <button class="btnNext btnNext12">Suivant</button>
+                        <div class="rep rep12-2"><p>Reponse par rapport à la question 1 choix 2</p>
                         </div>
+                        <button class="btnNext btnNext12">Suivant</button>
 
                     </section>
                     <section>
-                        <div class="question ques-13 3">
+                        <div class="question ques-13 2">
                             <h2>Voudrais-tu faire un Master ou une école d’ingénieur après le BUT ?</h2>
                             <div class="">
-                                <label class="q13-1"><input type="radio" name="reponse"> Je voudrait faire un master</label>
-                                <label class="q13-2"><input type="radio" name="reponse"> Je voudrait faire une école
-                                    dingénieur</label>
-                                <label class="q13-3"><input type="radio" name="reponse"> Je part travailler après avoir eu le
+                                <label class="q13-1"><input type="radio" name="reponse"> Je voudrait faire une école
+                                    dingénieur/master</label>
+                                <label class="q13-2"><input type="radio" name="reponse"> Je part travailler après avoir eu le
                                     BUT</label>
 
                             </div>
                             <button class="btn-question btn-question-13">Valider</button>
                         </div>
 
-                        <div class="rep rep1-1"><p>Reponse par rapport à la question 1 choix 1</p>
-                            <button class="btnNext btnNext13">Suivant</button>
+                        <div class="rep rep13-1"><p>Reponse par rapport à la question 1 choix 1</p>
                         </div>
-                        <div class="rep rep1-2"><p>Reponse par rapport à la question 1 choix 2</p>
-                            <button class="btnNext btnNext13">Suivant</button>
+                        <div class="rep rep13-2"><p>Reponse par rapport à la question 1 choix 2</p>
                         </div>
+                        <button class="btnNext btnNext13">Suivant</button>
 
                     </section>
                     <section>
@@ -312,12 +297,11 @@
                             <button class="btn-question btn-question-14">Valider</button>
                         </div>
 
-                        <div class="rep rep1-1"><p>Reponse par rapport à la question 1 choix 1</p>
-                            <button class="btnNext btnNext14">Suivant</button>
+                        <div class="rep rep14-1"><p>Reponse par rapport à la question 1 choix 1</p>
                         </div>
-                        <div class="rep rep1-2"><p>Reponse par rapport à la question 1 choix 2</p>
-                            <button class="btnNext btnNext14">Suivant</button>
+                        <div class="rep rep14-2"><p>Reponse par rapport à la question 1 choix 2</p>
                         </div>
+                        <button class="btnNext btnNext14">Suivant</button>
 
                     </section>
                     <section>
@@ -331,12 +315,12 @@
                             <button class="btn-question btn-question-15">Valider</button>
                         </div>
 
-                        <div class="rep rep1-1"><p>Reponse par rapport à la question 1 choix 1</p>
-                            <button class="btnNext btnNext15">Suivant</button>
+                        <div class="rep rep15-1"><p>Reponse par rapport à la question 1 choix 1</p>
                         </div>
-                        <div class="rep rep1-2"><p>Reponse par rapport à la question 1 choix 2</p>
-                            <button class="btnNext btnNext15">Suivant</button>
+                        <div class="rep rep15-2"><p>Reponse par rapport à la question 1 choix 2</p>
                         </div>
+                        
+                        <button class="btnNext btnNext15">Suivant</button>
 
                     </section>
                     <section>
@@ -350,12 +334,11 @@
                             <button class="btn-question btn-question-16">Valider</button>
                         </div>
 
-                        <div class="rep rep1-1"><p>Reponse par rapport à la question 1 choix 1</p>
-                            <button class="btnNext btnNext16">Suivant</button>
+                        <div class="rep rep16-1"><p>Reponse par rapport à la question 1 choix 1</p>
                         </div>
-                        <div class="rep rep1-2"><p>Reponse par rapport à la question 1 choix 2</p>
-                            <button class="btnNext btnNext16">Suivant</button>
+                        <div class="rep rep16-2"><p>Reponse par rapport à la question 1 choix 2</p>
                         </div>
+                        <button class="btnNext btnNext16">Suivant</button>
 
                     </section>
                     <section>
@@ -371,12 +354,11 @@
                             <button class="btn-question btn-question-17">Valider</button>
                         </div>
 
-                        <div class="rep rep1-1"><p>Reponse par rapport à la question 1 choix 1</p>
-                            <button class="btnNext btnNext17">Suivant</button>
+                        <div class="rep rep17-1"><p>Reponse par rapport à la question 1 choix 1</p>
                         </div>
-                        <div class="rep rep1-2"><p>Reponse par rapport à la question 1 choix 2</p>
-                            <button class="btnNext btnNext17">Suivant</button>
+                        <div class="rep rep17-2"><p>Reponse par rapport à la question 1 choix 2</p>
                         </div>
+                        <button class="btnNext btnNext17">Suivant</button>
 
                     </section>
                     <section>
@@ -390,12 +372,11 @@
                             <button class="btn-question btn-question-18">Valider</button>
                         </div>
 
-                        <div class="rep rep1-1"><p>Reponse par rapport à la question 1 choix 1</p>
-                            <button class="btnNext btnNext18">Suivant</button>
+                        <div class="rep rep18-1"><p>Reponse par rapport à la question 1 choix 1</p>
                         </div>
-                        <div class="rep rep1-2"><p>Reponse par rapport à la question 1 choix 2</p>
-                            <button class="btnNext btnNext18">Suivant</button>
+                        <div class="rep rep18-2"><p>Reponse par rapport à la question 1 choix 2</p>
                         </div>
+                        <button class="btnNext btnNext18">Suivant</button>
 
                     </section>
                     <section>
@@ -411,19 +392,19 @@
                             <button class="btn-question btn-question-19">Valider</button>
                         </div>
 
-                        <div class="rep rep1-1"><p>Reponse par rapport à la question 19 choix 1</p>
-                            <button class="btnNext btnNext19">Suivant</button>
+                        <div class="rep rep19-1"><p>Reponse par rapport à la question 19 choix 1</p>
                         </div>
-                        <div class="rep rep1-2"><p>Reponse par rapport à la question 19 choix 2</p>
-                            <button class="btnNext btnNext19">Suivant</button>
+                        <div class="rep rep19-2"><p>Reponse par rapport à la question 19 choix 2</p>
                         </div>
+                        
+                        <button class="btnNext btnNext19">Suivant</button>
 
                     </section>
                     <section>
                         <div class="question ques-20 2">
                             <h2>Voudrais-tu travailler beaucoup chez toi ?</h2>
                             <div class="">
-                                <label class="q20-1"><input type="radio" name="reponse"> Je bien les devoir à la maison</label>
+                                <label class="q20-1"><input type="radio" name="reponse"> J'aime bien les devoir à la maison</label>
                                 <label class="q20-2"><input type="radio" name="reponse"> Je n'aime pas faire mes devoir en
                                     rentrant chez moi</label>
 
@@ -431,16 +412,40 @@
                             <button class="btn-question btn-question-20">Valider</button>
                         </div>
 
-                        <div class="rep rep1-1"><p>Reponse par rapport à la question 20 choix 1</p>
-                            <button class="btnNext btnNext20">Suivant</button>
+                        <div class="rep rep20-1"><p>Reponse par rapport à la question 20 choix 1</p>
                         </div>
-                        <div class="rep rep1-2"><p>Reponse par rapport à la question 20 choix 2</p>
-                            <button class="btnNext btnNext20">Suivant</button>
+                        <div class="rep rep20-2"><p>Reponse par rapport à la question 20 choix 2</p>
                         </div>
 
                     </section>
                 </div>
             </div>
         </div>
+        <footer>
+            <section id="social">
+                <div class="social_line">
+                    <a><img src="../Medias/insta.png" height="80" width="80">IUT_Lyon1</a>
+                </div>
+                <div class="social_line">
+                    <a><img src="../Medias/linkedin.png" height="80" width="80">IUT_Lyon1</a>
+                </div>
+                <div class="social_line">
+                    <a><img src="../Medias/linkedin.png" height="80" width="80">IUT_Lyon1</a>
+                </div>
+                <div class="social_line">
+                    <a><img src="../Medias/insta.png" height="80" width="80">IUT_Lyon1</a>
+                </div>
+            </section>
+            <section id="contact">
+                <div class="bloc1">
+                    <h3>Nous contacter</h3>
+                </div>
+                <div class="bloc2">
+                <input type="text" placeholder="Entrez votre mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                </div>
+                <div class="bloc3">
+                    <input id="msg" type="text" placeholder="Entrez votre message">
+                </div>
+            </section>
     </div>
 </body>
