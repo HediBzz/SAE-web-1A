@@ -16,7 +16,7 @@ input[type=text] {
     display: flex;
     flex-direction: column;
     width: 50%;
-    height: 30vh;
+    height: 25vh;
     justify-content: space-around;
     flex-wrap: wrap;
 }
@@ -31,6 +31,7 @@ img {
 footer {
     background-color: var(--couleur1);
     z-index: 2;
+    height: 25vh;
 }
 .social_line a {
     font-size: 1.75em;
@@ -40,10 +41,12 @@ footer {
 }
 
 h3 {
-    font-size: 3em;
+    margin: 3vh;
+    font-size: 2.5em;
     color: white;
 }
 #contact {
+    height: 20vh;
     display: grid;
     grid-template-areas: 
     "a c"
@@ -71,5 +74,5 @@ h3 {
     grid-area: c;
 }
 #msg {
-    height: 24vh;
+    height: 20vh;
 }
