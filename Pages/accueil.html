@@ -10,12 +10,13 @@
     <link rel="stylesheet" href="../Styles/button.css">
     <link rel="stylesheet" href="../Styles/footer.css">
     <script src="../Scripts/script.js"></script>
-    <script src="../Scripts/web-comp.js"></script>
+    <script src="../Scripts/navbar-webcomp.js"></script>
+    <script src="../Scripts/footer-webcomp.js"></script>
 
     
 </head>
 <body>
-    <super-web-component></super-web-component>
+    <nav-bar></nav-bar>
     <div id="main-flex">
         <!--
         <img class="plan2" src="../Medias/parallax2.png" height="50%">
@@ -24,7 +25,7 @@
         <img class="plan3" src="../Medias/parallax2.png" height="50%">
         <img class="plan4" src="../Medias/parallax1.png" height="50%">
         -->
-        <img class="plan5" src="../Medias/hexa.png" height="20%""> <!---->
+        <img class="plan5" src="../Medias/hexa.png" height="20%"> <!---->
         <img class="plan4" src="../Medias/hexa.png" height="30%"> <!---->
         <img class="plan3" src="../Medias/hexa.png" height="60%"><!---->
         <img class="plan2" src="../Medias/hexa.png" height="100%">
@@ -67,37 +68,31 @@
                 aventure technique, scientifique et humaine qui est devenue l'informatique. 
                 A vous d'y participer !</p></article>
                 
-            <article><iframe src="https://www.youtube.com/embed/K0W4_85Du-4?ID_FICHE=206943" 
-                title="Présentation du DUT Informatique site de Villeurbanne Doua" 
-                webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" height="100%" width="100%"></iframe>
+            <article><iframe width="100%" height="100%" src="https://www.youtube.com/embed/K0W4_85Du-4" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+            </article>
+            <article>
+                <p>Contact</p>
+                <p class="info">
+                    IUT Lyon 1
+                    Site de Villeurbanne Doua
+                    Département Informatique
+                    92, boulevard Niels Bohr
+                    69622 Villeurbanne cedex
+                </p>
+                <p class="info">
+                    Tél : 04 72 69 21 82
+                    Horaires du secrétariat :
+                    Du Lundi au Vendredi
+                    08:30-12:30 / 13:30-16:30
+                </p>
+                <p class="info">
+                    mail: iutdoua.info@univ-lyon1.fr
+                </p>
             </article>
         </div>
-        <footer>
-            <section id="social">
-                <div class="social_line">
-                    <a><img src="../Medias/insta.png" height="50" width="50">IUT_Lyon1</a>
-                </div>
-                <div class="social_line">
-                    <a><img src="../Medias/linkedin.png" height="50" width="50">IUT_Lyon1</a>
-                </div>
-                <div class="social_line">
-                    <a><img src="../Medias/linkedin.png" height="50" width="50">IUT_Lyon1</a>
-                </div>
-                <div class="social_line">
-                    <a><img src="../Medias/insta.png" height="50" width="50">IUT_Lyon1</a>
-                </div>
-            </section>
-            <section id="contact">
-                <div class="bloc1">
-                    <h3>Nous contacter</h3>
-                </div>
-                <div class="bloc2">
-                <input type="text" placeholder="Entrez votre mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
-                </div>
-                <div class="bloc3">
-                    <input id="msg" type="text" placeholder="Entrez votre message">
-                </div>
-            </section>
-        </footer>
+        <footer-webcomp></footer-webcomp>
     </div>
 </body>

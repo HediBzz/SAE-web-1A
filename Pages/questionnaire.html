@@ -11,8 +11,12 @@
     <link rel="stylesheet" href="../Styles/footer.css">
     <script src="../Scripts/quest.js" defer></script>
     <script src="../Scripts/script.js"></script>
+    <script src="../Scripts/navbar-webcomp.js"></script>
+    <script src="../Scripts/footer-webcomp.js"></script>
+
 </head>
 <body>
+    <nav-bar></nav-bar>
     <div id="main-flex">
         <img class="plan5" src="../Medias/hexa.png" height="20%"> <!---->
         <img class="plan4" src="../Medias/hexa.png" height="30%"> <!---->
@@ -21,17 +25,7 @@
         <img class="plan1" src="../Medias/hexa.png" height="200%">
         
         <div class="centre c1">
-            <div id="navbar">
-                <p>IUT Lyon 1 : Département informatique</p>
-                <nav>
-                    <ul>
-                        <li> <a href="accueil.html"> Accueil</a> </li>
-                        <li> <a href="vie_etudiante.html"> Vie étudiante</a> </li>
-                        <li> <a href="scolarite.html"> Scolarité</a> </li>
-                        <!-- <li> <a href="questionnaire.html"> Questionnaire</a> </li> -->
-                    </ul>
-                <nav>
-            </div>
+            
             <div class="center">
                 <div class="questionnaire">
                     <section>
@@ -422,32 +416,6 @@
                 </div>
             </div>
         </div>
-        <footer>
-            <section id="social">
-                <div class="social_line">
-                    <a><img src="../Medias/insta.png" height="50" width="50">IUT_Lyon1</a>
-                </div>
-                <div class="social_line">
-                    <a><img src="../Medias/linkedin.png" height="50" width="50">IUT_Lyon1</a>
-                </div>
-                <div class="social_line">
-                    <a><img src="../Medias/linkedin.png" height="50" width="50">IUT_Lyon1</a>
-                </div>
-                <div class="social_line">
-                    <a><img src="../Medias/insta.png" height="50" width="50">IUT_Lyon1</a>
-                </div>
-            </section>
-            <section id="contact">
-                <div class="bloc1">
-                    <h3>Nous contacter</h3>
-                </div>
-                <div class="bloc2">
-                <input type="text" placeholder="Entrez votre mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
-                </div>
-                <div class="bloc3">
-                    <input id="msg" type="text" placeholder="Entrez votre message">
-                </div>
-            </section>
-        </footer>
+        <footer-webcomp></footer-webcomp>
     </div>
 </body>

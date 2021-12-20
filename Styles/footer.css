@@ -1,5 +1,7 @@
 footer {
+    position: relative;
     display: flex;
+    z-index: 3;
 }
 input[type=text] {
     width: 80%;
