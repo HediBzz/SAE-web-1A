@@ -125,6 +125,7 @@ article p {
 }
 h2 {
     padding: 1vh;
+    padding-bottom: 0;
     margin: 0;
     font-size: 1em;
     grid-area: a;
