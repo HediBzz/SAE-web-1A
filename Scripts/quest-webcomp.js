@@ -10,7 +10,7 @@ templateQuest.innerHTML = `<link rel="stylesheet" href="../Styles/main.css">
     <button class="btn-question">Valider</button>
     </div>
 `;
-class navBar extends HTMLElement {
+class Quest extends HTMLElement {
     constructor() {
         super();
         this.attachShadow({ mode: 'open' });
@@ -19,7 +19,7 @@ class navBar extends HTMLElement {
     }
 
     render() {
-        this.shadowRoot.querySelector('#navbar').addEventListener('scroll',() => {
+        this.shadowRoot.querySelector('.Quest').addEventListener('scroll',() => {
             console.log("salutavant");
             this.shadowRoot.querySelector("#navbar").style.top = window.scrollY + "px";
             console.log("salut");
@@ -34,11 +34,11 @@ class navBar extends HTMLElement {
 
 
     static get observedAttributes() {
-        return ["prop-count", "test"]
+        return ["id-quest", "rep1", "rep2"]
     }
 
     attributeChangedCallback(prop, oldVal, newVal) {
-        if (prop === 'prop-count') {
+        if (prop === 'id-quest') {
             this.compteur = Number.parseInt(newVal)
             this.updateTemplate()
         }
@@ -55,4 +55,4 @@ class navBar extends HTMLElement {
 
 
 }
-customElements.define('nav-bar', navBar);
+customElements.define('Quest', navBar);

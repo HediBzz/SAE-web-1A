@@ -109,7 +109,6 @@ h1 {
 }
 article p {
     font-size: 30px;
-    text-justify: justify;
 }
 .horizontal-line {
     width: 34vw;
@@ -121,7 +120,9 @@ article p {
     border-radius: 20px;
     animation: develop 2s;
 }
-
+.c1 > details {
+    padding-top: 7vh;
+}
 h2 {
     padding: 1vh;
     margin: 0;
