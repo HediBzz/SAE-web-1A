@@ -1,17 +1,28 @@
 const template = document.createElement('template');
 template.innerHTML = `<link rel="stylesheet" href="../Styles/main.css">
-<div id='navbar'>
-                <p>IUT Lyon 1 : Département informatique</p>
-                <p> </p>
-                <nav>
-                    <ul>
-                        <li> <a href="accueil.html"> Accueil</a> </li>
-                        <li> <a href="vie_etudiante.html"> Vie étudiante</a> </li>
-                        <li> <a href="scolarite.html"> Scolarité</a> </li>
-                        <li> <a href="questionnaire.html"> Questionnaire</a> </li>
-                    </ul>
-                <nav>
-            </div>
+<link rel="stylesheet" href="../Styles/navbar.css">
+    <div id='navbar'>
+        <p>IUT Lyon 1 : Département informatique</p>
+        <p> </p>
+        <nav class="basicNav">
+            <ul>
+                <li> <a href="accueil.html"> Accueil</a> </li>
+                <li> <a href="vie_etudiante.html"> Vie étudiante</a> </li>
+                <li> <a href="scolarite.html"> Scolarité</a> </li>
+                <li> <a href="questionnaire.html"> Questionnaire</a> </li>
+            </ul>
+        </nav>
+        <details>
+  <summary></summary>
+  <nav class="menu">
+    <a href="accueil.html"> Accueil</a>
+    <a href="vie_etudiante.html"> Vie étudiante</a>
+    <a href="scolarite.html"> Scolarité</a>
+    <a href="questionnaire.html"> Questionnaire</a>
+  </nav>
+</details>
+    </div>
+    
 `;
 class navBar extends HTMLElement {
     constructor() {

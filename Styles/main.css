@@ -63,6 +63,10 @@ label + label {
 label:hover{
     background-color: rgba(0, 0, 0, 0.2);
 }
+nav {
+    position: absolute;
+    right: 0;
+}
 .space {
     content: "";
     height: 30vh;
@@ -109,6 +113,8 @@ h1 {
 }
 article p {
     font-size: 30px;
+    text-align: justify;
+    padding: 2vh;
 }
 .horizontal-line {
     width: 34vw;
@@ -153,7 +159,7 @@ article {
     border-radius: 15px;
     margin: 2vh;
     width: 45vw;
-    height: 20vw;
+    height: auto;
     color: white;
     z-index: 1;
     text-align: center;
@@ -256,19 +262,27 @@ h2 + div {
 }
 
 
-
-
-
 details{
     align-self: center;
     justify-content: center;
     color: black;
     font-size: 25px;
+    width: 100vw;
 }
-
+.in-details {
+  background-color: var(--couleur1);
+  font-size: 35px;
+  color: var(--couleur2);
+  width: 100%;
+}
+#first-elem {
+  margin-top: 7vh;
+}
+.annee, .semestre {
+  padding: 0;
+}
 summary.annee::marker{
 content: ' 🎓';
-
 }
 
 summary.semestre::marker{
@@ -289,13 +303,12 @@ content: '📚';
 }
 
 
-@media (max-width: 700px) {
-    nav{
-        opacity: 0;
+
+@media (max-width: 1000px) {
+ 
+    article {
+        width: 100%;
+        height: auto;
+        min-height: 30vh;
     }
-    #navbar p {
-        opacity: 1;
-        width: 50vw;
-    }
-    
 }

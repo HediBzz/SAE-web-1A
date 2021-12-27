@@ -3,6 +3,9 @@ footer {
     top: 0;
     display: flex;
     z-index: 3;
+    background-color: var(--couleur1);
+    z-index: 2;
+    height: 20vh;
 }
 input[type=text] {
     width: 80%;
@@ -19,22 +22,18 @@ input[type=text] {
     display: flex;
     flex-direction: column;
     width: 50%;
-    height: 25vh;
+    height: 20vh;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 .social_line {
     display: flex;
     align-items: center;
-    width: 25vw;
+    width: auto;
+    padding: 4vh;
 }
 img {
     padding: 2vh;
-}
-footer {
-    background-color: var(--couleur1);
-    z-index: 2;
-    height: 25vh;
 }
 .social_line a {
     font-size: 1.75em;
@@ -44,8 +43,8 @@ footer {
 }
 
 h3 {
-    margin: 3vh;
-    font-size: 2.5em;
+    margin: 2vh;
+    font-size: 2.25em;
     color: white;
 }
 #contact {
@@ -77,5 +76,5 @@ h3 {
     grid-area: c;
 }
 #msg {
-    height: 20vh;
+    height: 10vh;
 }

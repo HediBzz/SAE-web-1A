@@ -3,16 +3,13 @@ templateFooter.innerHTML = `<link rel="stylesheet" href="../Styles/main.css"><li
 <footer>
             <section id="social">
                 <div class="social_line">
-                    <a><img src="../Medias/insta.png" height="50" width="50">IUT_Lyon1</a>
+                    <a><img src="../Medias/insta.png" height="50" width="50"></a>
                 </div>
                 <div class="social_line">
-                    <a><img src="../Medias/linkedin.png" height="50" width="50">IUT_Lyon1</a>
+                    <a><img src="../Medias/linkedin.png" height="50" width="50"></a>
                 </div>
                 <div class="social_line">
-                    <a><img src="../Medias/linkedin.png" height="50" width="50">IUT_Lyon1</a>
-                </div>
-                <div class="social_line">
-                    <a><img src="../Medias/insta.png" height="50" width="50">IUT_Lyon1</a>
+                    <a><img src="../Medias/linkedin.png" height="50" width="50"></a>
                 </div>
             </section>
             <section id="contact">
