@@ -126,9 +126,6 @@ article p {
     border-radius: 20px;
     animation: develop 2s;
 }
-.c1 > details {
-    padding-top: 7vh;
-}
 h2 {
     padding: 1vh;
     padding-bottom: 0;
@@ -274,6 +271,7 @@ details{
   font-size: 35px;
   color: var(--couleur2);
   width: 100%;
+  padding-left: 7vh;
 }
 #first-elem {
   margin-top: 7vh;
@@ -294,9 +292,14 @@ content: '📚';
   margin: 5px;
 }
 #navbar p {
-    content: " salut ";
     opacity: 1;
     border: black 2em;
+    width: inherit;
+}
+summary.specialite::marker{
+    content: '🔶';
+    font-size: medium;
+
 }
 .rep {
     display: none;

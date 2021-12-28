@@ -3,7 +3,6 @@ template.innerHTML = `<link rel="stylesheet" href="../Styles/main.css">
 <link rel="stylesheet" href="../Styles/navbar.css">
     <div id='navbar'>
         <p>IUT Lyon 1 : Département informatique</p>
-        <p> </p>
         <nav class="basicNav">
             <ul>
                 <li> <a href="accueil.html"> Accueil</a> </li>
