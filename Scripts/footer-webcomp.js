@@ -13,15 +13,7 @@ templateFooter.innerHTML = `<link rel="stylesheet" href="../Styles/main.css"><li
                 </div>
             </section>
             <section id="contact">
-                <div class="bloc1">
-                    <h3>Nous contacter</h3>
-                </div>
-                <div class="bloc2">
-                <input type="text" placeholder="Entrez votre mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
-                </div>
-                <div class="bloc3">
-                    <input id="msg" type="text" placeholder="Entrez votre message">
-                </div>
+                <a href=""> Site de Lyon 1 </a>
             </section>
         </footer>
 `;

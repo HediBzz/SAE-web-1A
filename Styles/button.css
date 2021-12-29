@@ -69,6 +69,7 @@ button {
     font-size: 2em;
     position: fixed;
     z-index: 3;
+    width: auto;
 }
   
 .login:hover {

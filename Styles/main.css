@@ -116,15 +116,21 @@ article p {
     text-align: justify;
     padding: 2vh;
 }
-.horizontal-line {
-    width: 34vw;
+.horizontal-line, .horizontal-line2{
     height: 0.25vh;
     background-color: black;
     padding: 0;
     margin: 0;
     margin-left: 4vh;
     border-radius: 20px;
+}
+.horizontal-line {
+    width: 34vw;
     animation: develop 2s;
+}
+.horizontal-line2 {
+    width: 18vw;
+    animation: develop2 2s;
 }
 h2 {
     padding: 1vh;
