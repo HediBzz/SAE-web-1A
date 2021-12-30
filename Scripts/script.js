@@ -56,3 +56,4 @@ addEventListener("scroll",() => {
     document.querySelector(".plan5").style.top = -window.scrollY * 0.7 + 450 + "px";
     document.querySelector(".plan5").style.transform = "rotate(" + (100 + -window.scrollY * 0.04) + "deg)";
 })
+

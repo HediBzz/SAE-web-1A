@@ -42,7 +42,7 @@
                 <button id="btn-dark-mode" style="vertical-align:middle"><span><a href="questionnaire.html">Questionnaire</a></span></button>
             </div>
         </div>
-        <button class="login"><a href="https://cas.univ-lyon1.fr/cas/login?service=https%3A%2F%2Fwww.univ-lyon1.fr%2Fservlet%2Fcom.jsbsoft.jtf.core.SG%3FPROC%3DIDENTIFICATION_FRONT">Connexion</a></button>
+        <button class="login"><a href="https://cas.univ-lyon1.fr/cas/login?service=https%3A%2F%2Fwww.univ-lyon1.fr%2Fservlet%2Fcom.jsbsoft.jtf.core.SG%3FPROC%3DIDENTIFICATION_FRONT" target="_blank">Connexion</a></button>
  
         <div class="presentation">
             <h1>BIENVENU SUR LE SITE DE L'IUT LYON 1</h1>
@@ -72,9 +72,19 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                 allowfullscreen></iframe>
             </article>
-            <article>
+            <article id="contact-art">
                 <h2>Contact</h2>
-                <p class="info">
+                <form>
+                    <h4 id="a">Nom</h4>
+                    <h4 id="b">Prénom</h4>
+                    <label id="name c"><input type="text" placeholder=" Votre nom"></label>
+                    <label id="surname d"><input type="text" placeholder=" Votre prénom"></label>
+                    <h4 id="e">E-mail</h4>
+                    <label class="e-mail" id="f"><input type="text" placeholder=" Votre e-mail"></label>
+                </form>
+                
+                
+                <!-- <p class="info">
                     IUT Lyon 1
                     Site de Villeurbanne Doua
                     Département Informatique
@@ -88,7 +98,7 @@
                     08:30-12:30 / 13:30-16:30
                 </p>
                 <p class="info">
-                    mail: iutdoua.info@univ-lyon1.fr
+                    mail: iutdoua.info@univ-lyon1.fr -->
                 </p>
             </article>
         </div>

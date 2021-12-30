@@ -12,14 +12,14 @@ template.innerHTML = `<link rel="stylesheet" href="../Styles/main.css">
             </ul>
         </nav>
         <details>
-  <summary></summary>
-  <nav class="menu">
-    <a href="accueil.html"> Accueil</a>
-    <a href="vie_etudiante.html"> Vie étudiante</a>
-    <a href="scolarite.html"> Scolarité</a>
-    <a href="questionnaire.html"> Questionnaire</a>
-  </nav>
-</details>
+            <summary></summary>
+            <nav class="menu">
+                <a href="accueil.html"> Accueil</a>
+                <a href="vie_etudiante.html"> Vie étudiante</a>
+                <a href="scolarite.html"> Scolarité</a>
+                <a href="questionnaire.html"> Questionnaire</a>
+            </nav>
+        </details>
     </div>
     
 `;
@@ -36,6 +36,8 @@ class navBar extends HTMLElement {
             this.shadowRoot.querySelector("#navbar").style.top = window.scrollY + "px";
         })
     }
+
+
     
     static get observedAttributes() {
         return 
