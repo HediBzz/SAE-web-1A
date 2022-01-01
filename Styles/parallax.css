@@ -8,6 +8,7 @@
     filter: invert(19%) sepia(88%) saturate(4336%) hue-rotate(294deg) brightness(114%) contrast(127%);
     animation: visible2 1s;
     max-width: none;
+    height: 180%;
 }
 .plan2 {
     position: fixed;
@@ -17,6 +18,7 @@
     filter: invert(43%) sepia(97%) saturate(1630%) hue-rotate(162deg) brightness(96%) contrast(101%);
     animation: visible2 2s;
     max-width: none;
+    height: 100%;
 }
 .plan3 {
     position: fixed;
@@ -26,6 +28,7 @@
     transform: rotate(80deg);
     animation: visible2 3s;
     max-width: none;
+    height: 60%;
 }
 .plan4 {
     position: fixed;
@@ -36,6 +39,7 @@
     filter: invert(79%) sepia(77%) saturate(1515%) hue-rotate(3deg) brightness(108%) contrast(105%);
     animation: visible2 4s;
     max-width: none;
+    height: 30%;
 }
 .plan5 {
     position: fixed;
@@ -46,4 +50,5 @@
     filter: invert(14%) sepia(100%) saturate(3809%) hue-rotate(261deg) brightness(94%) contrast(140%);
     animation: visible2 5s;
     max-width: none;
+    height: 20%;
 }
