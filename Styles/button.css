@@ -75,3 +75,18 @@ button {
 .login:hover {
     opacity: 0.8;
 }
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 6vh;
+    margin: 3vh;
+    width: auto;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }

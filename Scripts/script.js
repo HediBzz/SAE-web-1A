@@ -36,6 +36,7 @@ addEventListener("scroll",() => {
     plan1.move()
 })*/
 
+var scrollPos = window.scrollY
 
 addEventListener("scroll",() => {
 
@@ -55,5 +56,13 @@ addEventListener("scroll",() => {
 
     document.querySelector(".plan5").style.top = -window.scrollY * 0.7 + 450 + "px";
     document.querySelector(".plan5").style.transform = "rotate(" + (100 + -window.scrollY * 0.04) + "deg)";
+
+    
+    if(window.scrollY - scrollPos < 0){
+        console.log(document.querySelector("navbar"));
+        console.log("ok");
+    }
+
+    scrollPos = window.scrollY;
 })
 

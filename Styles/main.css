@@ -97,7 +97,10 @@ form {
     "a b"
     "c d"
     "e e"
-    "f f";
+    "f f"
+    "g g"
+    "h h";
+    font-size: 30px;
 }
 #a {grid-area: a;}
 #b {grid-area: b;}
@@ -105,6 +108,16 @@ form {
 #d {grid-area: d;}
 #e {grid-area: e;}
 #f {grid-area: f;}
+#g {grid-area: g;}
+#h {grid-area: h;}
+
+textarea {
+    height: 200px;
+    width: 100%;
+    font-size: 0.9em;
+    font-family: "Gotham";
+}
+
 #contact-art {
     display: flex;
     justify-content: center;
@@ -120,6 +133,7 @@ form input {
     height: 4vh;
     font-size: 25px;
     width: 100%;
+    font-family: "Gotham";
 }
 .e-mail {
     width: 95%;
@@ -171,7 +185,7 @@ article p {
     animation: develop2 2s;
 }
 h2 {
-    padding: 1vh;
+    padding: 2vh;
     padding-bottom: 0;
     margin: 0;
     font-size: 1em;
