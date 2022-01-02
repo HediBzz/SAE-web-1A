@@ -1,15 +1,15 @@
 .btn-question {
     font-family: "Gotham";
     height: 5vh;
-    width: 15vw;
+    width: auto;
     font-size: 1em;
     border-radius: 40px;
     background-color: rgba(255, 255, 255, 0.6);
 }
-#btn-dark-mode{
+#questionnaire-link {
     display: inline-block;
     border-radius: 10px;
-    width: 30vh;
+    width: 33vh;
     height: 5vh;
     background-color: var(--couleur1);
     opacity: 0.75;
@@ -21,7 +21,7 @@
     margin: 5px;
     align-self: center;
 }
-#btn-dark-mode span {
+#questionnaire-link span {
     cursor: pointer;
     display: inline-block;
     position: relative;
@@ -29,17 +29,17 @@
     color: white;
     opacity: 1.5;
 }
-#btn-dark-mode span:after {
+#questionnaire-link span:after {
     content: '\00bb';
     position: absolute;
     opacity: 0;
     top: 0;
     right: -20px;
 }
-#btn-dark-mode:hover span {
+#questionnaire-link:hover span {
     padding-right: 15px;
 }
-#btn-dark-mode:hover span:after {
+#questionnaire-link:hover span:after {
     opacity: 1;
     right: 0;
 }
@@ -49,11 +49,14 @@
     justify-content: center;
     margin-left: 0;
 }
-button {
+button, #btn-dark-mode {
     align-self: center;
     justify-self: center;
     margin: 3vh;
     margin-bottom: 2vh;
+}
+.rep p {
+    font-size: 1em;
 }
 .login {
     background-color: #000000;
@@ -75,3 +78,21 @@ button {
 .login:hover {
     opacity: 0.8;
 }
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 6vh;
+    margin: 3vh;
+    width: auto;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  .btnNext20{
+      display: none;
+  }

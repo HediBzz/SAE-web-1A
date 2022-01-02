@@ -3,17 +3,17 @@ templateFooter.innerHTML = `<link rel="stylesheet" href="../Styles/main.css"><li
 <footer>
             <section id="social">
                 <div class="social_line">
-                    <a><img src="../Medias/insta.png" height="50" width="50"></a>
+                    <a href="https://www.instagram.com/iutlyon1/?hl=fr" target="_blank"><img src="../Medias/insta.png" height="50" width="50" alt="Logo instagram"></a>
                 </div>
                 <div class="social_line">
-                    <a><img src="../Medias/linkedin.png" height="50" width="50"></a>
+                    <a href="https://fr.linkedin.com/school/iut-lyon-1/" target="_blank"><img src="../Medias/linkedin.png" height="50" width="50" alt="Logo linkedin"></a>
                 </div>
                 <div class="social_line">
-                    <a><img src="../Medias/linkedin.png" height="50" width="50"></a>
+                    <a href="https://www.facebook.com/IUTLyon1/" target="_blank"><img src="../Medias/facebook.png" height="50" width="50" alt="Logo facebook"></a>
                 </div>
             </section>
             <section id="contact">
-                <a href=""> Site de Lyon 1 </a>
+                <a href="https://iut.univ-lyon1.fr/" target="_blank"> Site de Lyon 1 </a>
             </section>
         </footer>
 `;

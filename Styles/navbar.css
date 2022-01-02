@@ -1,8 +1,11 @@
 .menu, summary {
     display: none;
 }
+details {
+  border: none;
+}
 
-@media (max-width: 1000px) {
+@media (max-width: 1450px) {
     .basicNav{
         display: none;
     }
@@ -26,8 +29,8 @@
         user-select: none;
         outline: none;
         transition: transform 200ms ease-in-out 0s;
-        right: 35px;
-        top: 35px;
+        right: 15px;
+        top: 15px;
         position: absolute;
       }
       summary::before,
@@ -55,7 +58,7 @@
         animation-name: menuAnim;
         position: absolute;
         right: 0;
-        top: 103px;
+        top: 6.3vh;
       }
       details[open] summary::before {
         content: "X";
@@ -125,6 +128,6 @@
       }
     #navbar p {
         opacity: 1;
-        width: 50vw;
+        width: 80vw;
     }
 }

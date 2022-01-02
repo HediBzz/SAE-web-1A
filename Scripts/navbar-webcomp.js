@@ -2,7 +2,7 @@ const template = document.createElement('template');
 template.innerHTML = `<link rel="stylesheet" href="../Styles/main.css">
 <link rel="stylesheet" href="../Styles/navbar.css">
     <div id='navbar'>
-        <p>IUT Lyon 1 : Département informatique</p>
+        <p>IUT Lyon 1 : Informatique</p>
         <nav class="basicNav">
             <ul role="barre de naviguation">
                 <li> <a href="accueil.html"> Accueil</a> </li>
@@ -45,7 +45,4 @@ class navBar extends HTMLElement {
 
 }
 customElements.define('nav-bar', navBar);
-
-
-
 
