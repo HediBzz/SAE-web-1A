@@ -350,6 +350,7 @@ details{
     display: flex;
     justify-content: center;
     color: black;
+    margin: 0;
 }
 #elem2 {
     grid-area: elem2;
