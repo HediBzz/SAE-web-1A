@@ -11,8 +11,6 @@ btns.forEach((btnElem, key)=>{
     
     elemIndex = key + 1;
 
-    console.log(elemIndex)
-
     document.querySelector(`.btn-question.btn-question-${elemIndex}`).addEventListener('click',(event)=>{
         const elemIndexQuestion = Number.parseInt(event.target.classList[1].split('-')[2])
         
@@ -21,25 +19,20 @@ btns.forEach((btnElem, key)=>{
         nb_quest = document.querySelector(`.question.ques-${elemIndexQuestion}`).classList[2]
         
         
-        for(let i = 1; i <nb_quest; i++){
+        for(let i = 1; i < 3; i++){
             if(document.querySelector(`.q${elemIndexQuestion}-${i}`).querySelector("input").checked === true){
-                console.log(`Question ${elemIndexQuestion}, reponse ${i}`)
                 value = i
-                console.log("valeur = " + value)
             }
         }
         if(value!=null){
             document.querySelector(`.rep${num_quest}-${value}`).classList.add('active')
             document.querySelector(`.btnNext${num_quest}`).classList.add('active')
-            console.log(num_quest + "yesss")
         }
         
         
     })
 
     document.querySelector(`.btnNext${elemIndex}`).addEventListener('click',(event)=>{
-        console.log("valeur = " + value)
-        console.log("question = " + num_quest)
         
         document.querySelector(`.rep${num_quest}-${value}`).classList.remove('active')
         document.querySelector(`.btnNext${num_quest}`).classList.remove('active')

@@ -1,6 +1,9 @@
 .menu, summary {
     display: none;
 }
+details {
+  border: none;
+}
 
 @media (max-width: 1200px) {
     .basicNav{
