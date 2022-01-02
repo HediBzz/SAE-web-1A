@@ -55,6 +55,9 @@ button, #btn-dark-mode {
     margin: 3vh;
     margin-bottom: 2vh;
 }
+.rep p {
+    font-size: 1em;
+}
 .login {
     background-color: #000000;
     border-radius: 40px;
@@ -89,4 +92,7 @@ input[type=submit] {
   
   input[type=submit]:hover {
     background-color: #45a049;
+  }
+  .btnNext20{
+      display: none;
   }

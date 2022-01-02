@@ -18,13 +18,14 @@ btns.forEach((btnElem, key)=>{
         document.querySelector(`.question.ques-${elemIndexQuestion}`).classList.remove('active')
         nb_quest = document.querySelector(`.question.ques-${elemIndexQuestion}`).classList[2]
         
-        
+        value = 0;
         for(let i = 1; i < 3; i++){
             if(document.querySelector(`.q${elemIndexQuestion}-${i}`).querySelector("input").checked === true){
                 value = i
             }
         }
-        if(value!=null){
+    
+        if(value!=0){
             document.querySelector(`.rep${num_quest}-${value}`).classList.add('active')
             document.querySelector(`.btnNext${num_quest}`).classList.add('active')
         }
