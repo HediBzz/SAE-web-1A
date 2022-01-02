@@ -368,7 +368,7 @@ details{
   font-size: 30px;
   color: var(--couleur2);
   width: auto;
-  margin-left: 7vh;
+  margin-left: 3vh;
 }
 #first-elem {
   margin-top: 9vh;
@@ -389,6 +389,33 @@ details{
 .rep {
     display: none;
 }
+.for-center {
+    display: flex;
+    justify-content: center;
+}
+#notation {
+    width: 100%;
+}
+#notation a {
+    color: rgb(93, 182, 255);
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.bloc1, .bloc2 {
+    width: 50%;
+}
+#notation h2 {
+    font-size: 3em;
+}
+#notation h3 {
+    font-size: 2em;
+}
+#notation p {
+    font-size: 1.75em;
+}
 
 #annee1{
     list-style-type: decimal;
@@ -408,5 +435,11 @@ details{
         width: 100%;
         height: auto;
         min-height: 30vh;
+    }
+    .flex-container {
+        flex-direction: column;
+    }
+    .bloc1, .bloc2 {
+        width: 100%;
     }
 }
