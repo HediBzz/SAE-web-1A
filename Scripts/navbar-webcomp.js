@@ -4,7 +4,7 @@ template.innerHTML = `<link rel="stylesheet" href="../Styles/main.css">
     <div id='navbar'>
         <p>IUT Lyon 1 : Département informatique</p>
         <nav class="basicNav">
-            <ul>
+            <ul role="barre de naviguation">
                 <li> <a href="accueil.html"> Accueil</a> </li>
                 <li> <a href="vie_etudiante.html"> Vie étudiante</a> </li>
                 <li> <a href="scolarite.html"> Scolarité</a> </li>
@@ -32,15 +32,15 @@ class navBar extends HTMLElement {
     }
 
     render() {
-        this.shadowRoot.querySelector('#navbar').addEventListener('scroll',() => {
+        this.shadowRoot.querySelector('#navbar').addEventListener('scroll', () => {
             this.shadowRoot.querySelector("#navbar").style.top = window.scrollY + "px";
         })
     }
 
 
-    
+
     static get observedAttributes() {
-        return 
+        return
     }
 
 }
