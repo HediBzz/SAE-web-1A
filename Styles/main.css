@@ -1,5 +1,3 @@
-
-
 @font-face {
     font-family: "Gotham";
     src: url("../Medias/GothamLight.otf");
@@ -15,6 +13,8 @@
 body {
     --couleur1: rgba(0, 0, 0, 0.7);
     --couleur2: rgb(255, 255, 255);
+
+    /* Pour l'effet fixe du background */
     overflow-x: hidden;
     background-image: url("../Medias/whitebg.jpg");
     background-attachment: fixed;
@@ -30,13 +30,15 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+
     height: 15vh;
 }
 #map {
-    padding-top: 7vh;
     height: 100%;
+
+    padding-top: 7vh;
 }
-input[type=radio], input[type=checkbox] {
+input[type=radio] {
     cursor: pointer;
 
     /* Double-sized Checkboxes */
@@ -49,8 +51,10 @@ input[type=radio], input[type=checkbox] {
 }
 label {
     opacity: 1;
+
     display: flex;
     align-items: center;
+
     padding-right: 2vh;
     background-color: var(--couleur2);
     transition: background-color 0.5s;
@@ -84,6 +88,7 @@ h1 {
     position: absolute;
     z-index: 2;
     top: 0;
+    left: 0;
 }
 h4 {
     font-size: 30px;
@@ -330,6 +335,12 @@ details{
 .little-space {
     height: 2vh;
 }
+#partenaires {
+    background-color: var(--couleur2);
+    border: solid var(--couleur1) 5px;
+    border-radius: 0 0 15px 15px;
+    color: black;
+}
 .in-details {
   background-color: var(--couleur1);
   font-size: 30px;
@@ -343,11 +354,6 @@ details{
 .annee, .semestre {
   padding: 0;
 }
-summary.annee::marker{
-}
-
-summary.semestre::marker{
-}
 .annee{ 
   font-size: 35px;
   padding: 5px;
@@ -357,8 +363,6 @@ summary.semestre::marker{
     opacity: 1;
     border: black 2em;
     width: inherit;
-}
-summary.specialite::marker{
 }
 .rep {
     display: none;

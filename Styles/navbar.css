@@ -5,7 +5,7 @@ details {
   border: none;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1450px) {
     .basicNav{
         display: none;
     }
@@ -128,6 +128,6 @@ details {
       }
     #navbar p {
         opacity: 1;
-        width: 50vw;
+        width: 80vw;
     }
 }
