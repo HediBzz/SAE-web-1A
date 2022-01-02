@@ -11,6 +11,6 @@
 ### - Un script "script.js" gère le parallax. Celui-ci est crée à partir d'une seule image d'hexagone que l'on modifie avec des filtres pour que la taille du projets soit optimisée au maximum.
 ### - Normalement, toutes les erreurs et warnings du validateur ont été corrigées.
 ## Inspirations et maquettes :
-### - Les fichiers "maquette_ordinateur.pdf" et "maquette_portable.pdf" se trouvent dans le projet et decrivent les idées que nous avons suivi pour développer le site. Ils correspondent respectivement à la version ordinateur ainsi qu'à la version mobile du projet.
+### - Le fichier "maquettes.odt" se trouve dans le projet et decrit les idées que nous avons suivi pour développer le site. Il contient l'interface mobile également.
 ### - Nous nous sommes inspirés du site de l'INSA Lyon (https://www.insa-lyon.fr/) notamment pour l'idée de la carte google maps. L'idée du parallax provient d'anciens projets.
 ## Le site est également en ligne sur la forge de Lyon 1 (http://p2107336.pages.univ-lyon1.fr/site-iut/Pages/accueil.html).
