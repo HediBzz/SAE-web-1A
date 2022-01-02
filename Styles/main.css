@@ -339,7 +339,29 @@ details{
     background-color: var(--couleur2);
     border: solid var(--couleur1) 5px;
     border-radius: 0 0 15px 15px;
+    display: grid;
+    justify-content: center;
+    grid-template-areas: 
+    "elem1 elem1"
+    "elem2 elem3";
+}
+#elem1 {
+    grid-area: elem1;
+    display: flex;
+    justify-content: center;
     color: black;
+}
+#elem2 {
+    grid-area: elem2;
+    padding: 2vh;
+    padding-right: 4vh;
+}
+#elem3 {
+    grid-area: elem3; 
+    padding-left: 4vh
+}
+.info a {
+    color: rgb(93, 182, 255);
 }
 .in-details {
   background-color: var(--couleur1);
