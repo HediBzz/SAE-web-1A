@@ -390,7 +390,17 @@ details{
     display: none;
 }
 
+#annee1{
+    list-style-type: decimal;
 
+}
+.annee1{
+    background-color: var(--couleur1);
+  font-size: 35px;
+  color: var(--couleur2);
+  width: 100%;
+  padding-left: 7vh;
+}
 
 @media (max-width: 1200px) {
  
